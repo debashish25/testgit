@@ -17,7 +17,6 @@ import org.hibernate.cfg.Configuration;
 public class App {
 	public static void main(String[] args) {
 		System.out.println("Hello javatesting");
-		System.out.println("Hello World newtestt123456!");
 		Configuration cfg = new Configuration();
 		cfg.configure();
 		SessionFactory sfg = cfg.buildSessionFactory();
