@@ -24,7 +24,8 @@ public class App {
 		SessionFactory sfg = cfg.buildSessionFactory();
 		Session session = sfg.openSession();
 		Transaction t = session.beginTransaction();
-// this is a comment afgain in test2
+//this is a direct commot in main new 
+//this is a direct comment in main new one
 //		Employee e1 = new Employee();
 //		e1.setId(105);
 //		e1.setFirstName("sanjiv");
