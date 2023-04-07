@@ -22,7 +22,7 @@ public class App {
 		SessionFactory sfg = cfg.buildSessionFactory();
 		Session session = sfg.openSession();
 		Transaction t = session.beginTransaction();
-//this is a direct commot in main
+//this is a direct commot in main new
 //		Employee e1 = new Employee();
 //		e1.setId(105);
 //		e1.setFirstName("sanjiv");
