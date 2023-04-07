@@ -16,18 +16,17 @@ import org.hibernate.cfg.Configuration;
 // */
 public class App {
 	public static void main(String[] args) {
-		System.out.println("Hello javatestingnew");
+
 		Configuration cfg = new Configuration();
 		cfg.configure();
 		SessionFactory sfg = cfg.buildSessionFactory();
 		Session session = sfg.openSession();
 		Transaction t = session.beginTransaction();
-//        this is a comment
 //		Employee e1 = new Employee();
 //		e1.setId(105);
 //		e1.setFirstName("sanjiv");
 //		e1.setLastName("sethi");
-//
+//wfwff
 //		session.save(e1);
 		Query q = session.createQuery("from Employee");
 		q.setFirstResult(1);
@@ -43,6 +42,7 @@ public class App {
 		sfg.close();
 		
 		System.out.println(sfg);
+//		jflkgjdlfjgldjfgljgjgldfjgljglfj
 	}
 
 }
