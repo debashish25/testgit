@@ -28,7 +28,7 @@ public class App {
 //		e1.setId(105);
 //		e1.setFirstName("sanjiv");
 //		e1.setLastName("sethi");
-//
+//wfwff
 //		session.save(e1);
 		Query q = session.createQuery("from Employee");
 		q.setFirstResult(1);
