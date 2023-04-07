@@ -16,18 +16,21 @@ import org.hibernate.cfg.Configuration;
 // */
 public class App {
 	public static void main(String[] args) {
-		System.out.println("Hello javatesting");
+		System.out.println("Hello java2");
+		System.out.println("Hello java3");
+		System.out.println("Hello World newtest!");
 		Configuration cfg = new Configuration();
 		cfg.configure();
 		SessionFactory sfg = cfg.buildSessionFactory();
 		Session session = sfg.openSession();
 		Transaction t = session.beginTransaction();
-//this is a direct commot in main new
+//this is a direct commot in main new 
+//this is a direct comment in main new one
 //		Employee e1 = new Employee();
 //		e1.setId(105);
 //		e1.setFirstName("sanjiv");
 //		e1.setLastName("sethi");
-//
+//wfwff
 //		session.save(e1);
 		Query q = session.createQuery("from Employee");
 		q.setFirstResult(1);
