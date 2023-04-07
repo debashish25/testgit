@@ -23,7 +23,7 @@ public class App {
 		SessionFactory sfg = cfg.buildSessionFactory();
 		Session session = sfg.openSession();
 		Transaction t = session.beginTransaction();
-
+// this is a comment
 //		Employee e1 = new Employee();
 //		e1.setId(105);
 //		e1.setFirstName("sanjiv");
