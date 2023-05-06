@@ -16,6 +16,7 @@ import org.hibernate.cfg.Configuration;
 // */
 public class App {
 	public static void main(String[] args) {
+		System.out.println("Hello java");
 		System.out.println("Hello javatestingnew");
 		Configuration cfg = new Configuration();
 		cfg.configure();
