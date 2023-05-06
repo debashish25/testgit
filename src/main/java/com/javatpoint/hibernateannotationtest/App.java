@@ -16,6 +16,7 @@ import org.hibernate.cfg.Configuration;
 // */
 public class App {
 	public static void main(String[] args) {
+		System.out.println("new data to test2");
 		System.out.println("heelo");
 		System.out.println("heelojava");
 		Configuration cfg = new Configuration();
