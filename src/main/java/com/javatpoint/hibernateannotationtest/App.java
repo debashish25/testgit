@@ -17,6 +17,7 @@ import org.hibernate.cfg.Configuration;
 public class App {
 	public static void main(String[] args) {
 		System.out.println("new data to test2");
+		System.out.println("new data in master");
 		System.out.println("heelo");
 		System.out.println("heelojava");
 		Configuration cfg = new Configuration();
@@ -24,12 +25,6 @@ public class App {
 		SessionFactory sfg = cfg.buildSessionFactory();
 		Session session = sfg.openSession();
 		Transaction t = session.beginTransaction();
-<<<<<<<<< Temporary merge branch 1
-//this is a direct commot in main new 
-//this is a direct comment in main new one
-=========
-// this is a comment afgain in test2
->>>>>>>>> Temporary merge branch 2
 //		Employee e1 = new Employee();
 //		e1.setId(105);
 //		e1.setFirstName("sanjiv");
