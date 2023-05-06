@@ -20,6 +20,7 @@ public class App {
 		System.out.println("new data in master");
 		System.out.println("heelo");
 		System.out.println("heelojava");
+		System.out.println("new data to test2 again);
 		Configuration cfg = new Configuration();
 		cfg.configure();
 		SessionFactory sfg = cfg.buildSessionFactory();
