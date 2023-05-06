@@ -23,12 +23,17 @@ public class App {
 		SessionFactory sfg = cfg.buildSessionFactory();
 		Session session = sfg.openSession();
 		Transaction t = session.beginTransaction();
-//this is a direct commot in main
+<<<<<<<<< Temporary merge branch 1
+//this is a direct commot in main new 
+//this is a direct comment in main new one
+=========
+// this is a comment afgain in test2
+>>>>>>>>> Temporary merge branch 2
 //		Employee e1 = new Employee();
 //		e1.setId(105);
 //		e1.setFirstName("sanjiv");
 //		e1.setLastName("sethi");
-//
+//wfwff
 //		session.save(e1);
 		Query q = session.createQuery("from Employee");
 		q.setFirstResult(1);
