@@ -16,7 +16,7 @@ import org.hibernate.cfg.Configuration;
 // */
 public class App {
 	public static void main(String[] args) {
-
+		System.out.println("heelo");
 		Configuration cfg = new Configuration();
 		cfg.configure();
 		SessionFactory sfg = cfg.buildSessionFactory();
