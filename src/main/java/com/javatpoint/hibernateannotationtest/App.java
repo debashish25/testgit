@@ -18,6 +18,7 @@ public class App {
 	public static void main(String[] args) {
 		System.out.println("new data to test2");
 		System.out.println("remove from main");
+		System.out.println("remove from main test new");
 		Configuration cfg = new Configuration();
 		cfg.configure();
 		SessionFactory sfg = cfg.buildSessionFactory();
