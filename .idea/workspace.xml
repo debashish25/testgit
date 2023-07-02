@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32eaaf8e-53b6-4927-8fd6-4f5da81b4da3" name="Changes" comment="Merge branch 'main' into test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/javatpoint/hibernateannotationtest/App.java">
+    <list default="true" id="5f3cf2f6-e4ba-4f52-b640-9a43c69aff55" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javatpoint/hibernateannotationtest/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javatpoint/hibernateannotationtest/App.java" afterDir="false" />
     </list>
@@ -16,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
