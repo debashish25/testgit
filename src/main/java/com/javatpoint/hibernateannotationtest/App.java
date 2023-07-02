@@ -19,6 +19,8 @@ public class App {
     System.out.println("Hello java test1");
 		System.out.println("new data to test2");
 		System.out.println("remove from main");
+		System.out.println("hello");
+		System.out.println("remove from main test new123123");
 		Configuration cfg = new Configuration();
 		cfg.configure();
 		SessionFactory sfg = cfg.buildSessionFactory();
