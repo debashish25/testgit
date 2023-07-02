@@ -16,9 +16,9 @@ import org.hibernate.cfg.Configuration;
 // */
 public class App {
 	public static void main(String[] args) {
-		System.out.println("Hello java test1");
-		System.out.println("Hello java test");
-		System.out.println("Hello javatestingnew");
+    System.out.println("Hello java test1");
+		System.out.println("new data to test2");
+		System.out.println("remove from main");
 		Configuration cfg = new Configuration();
 		cfg.configure();
 		SessionFactory sfg = cfg.buildSessionFactory();
